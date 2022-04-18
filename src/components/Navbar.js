@@ -39,6 +39,7 @@ export default function Navbar() {
                         color="inherit"
                         sx={{
                             textTransform: "none",
+                            borderRadius: "20px",
                             boxShadow: "none",
                             fontSize: "1.1em",
                         }}
@@ -50,7 +51,7 @@ export default function Navbar() {
                         variant="contained"
                         sx={{
                             textTransform: "none",
-                            borderRadius: "15px",
+                            borderRadius: "20px",
                             boxShadow: "none",
                             fontSize: "1.1em",
                         }}

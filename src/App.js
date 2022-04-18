@@ -2,6 +2,8 @@ import React from "react";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
 import Navbar from "./components/Navbar";
 import Herobar from "./components/Herobar";
+import QrcBar from "./components/QrcBar";
+import Stores from "./components/Stores";
 import "./App.css";
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
             <ThemeProvider theme={theme}>
                 <Navbar />
                 <Herobar />
+                <QrcBar />
+                <Stores />
             </ThemeProvider>
         </div>
     );
