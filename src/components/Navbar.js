@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/MenuRounded";
 
 export default function Navbar() {
     return (
-        <Box sx={{flexGrow: 1}}>
+        <Box sx={{flexGrow: 1, height: 80}}>
             <AppBar
                 position="static"
                 sx={{

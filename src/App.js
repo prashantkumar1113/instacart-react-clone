@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Herobar from "./components/Herobar";
 import QrcBar from "./components/QrcBar";
 import Stores from "./components/Stores";
+import Cardbar from "./components/Cardbar";
 import "./App.css";
 
 function App() {
@@ -32,8 +33,10 @@ function App() {
             <ThemeProvider theme={theme}>
                 <Navbar />
                 <Herobar />
+                <br /> <br />
                 <QrcBar />
                 <Stores />
+                <Cardbar />
             </ThemeProvider>
         </div>
     );
