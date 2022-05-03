@@ -5,6 +5,7 @@ import Herobar from "./components/Herobar";
 import QrcBar from "./components/QrcBar";
 import Stores from "./components/Stores";
 import Cardbar from "./components/Cardbar";
+import InstaAccordion from "./components/InstaAccordion";
 import "./App.css";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
                 <QrcBar />
                 <Stores />
                 <Cardbar />
+                <InstaAccordion />
             </ThemeProvider>
         </div>
     );

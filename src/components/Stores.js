@@ -1,5 +1,5 @@
 import React from "react";
-import {Box, Container, Paper, Grid} from "@mui/material";
+import {Box, Container, Paper, Grid, Typography} from "@mui/material";
 
 export default function Stores() {
     let storeList = [
@@ -36,7 +36,10 @@ export default function Stores() {
                 <Grid container spacing={2}>
                     {renderStoreList}
                 </Grid>
-                <h3>Show All</h3>
+                <br />
+                <Typography variant="p" component="div" color="secondary">
+                    Show All
+                </Typography>
             </Box>
         </Container>
     );

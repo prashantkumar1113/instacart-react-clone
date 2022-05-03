@@ -61,7 +61,21 @@ export default function Cardbar() {
             <Grid container spacing={2}>
                 {renderCards}
             </Grid>
-
+            <br />
+            <Box sx={{textAlign: "center"}}>
+                <Button
+                    color="secondary"
+                    variant="contained"
+                    sx={{
+                        textTransform: "none",
+                        borderRadius: "10px",
+                        boxShadow: "none",
+                        fontSize: "1.1em",
+                    }}
+                >
+                    Start shopping
+                </Button>
+            </Box>
             <br />
             <br />
         </Container>
